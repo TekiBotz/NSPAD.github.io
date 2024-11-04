@@ -4,6 +4,7 @@
 - [Software](#software)
 - [Attack Simulation](#attack-simulation)
 - [Output](#output)
+- [Conclusion](#conclusion)
 - [Link Tree](#link-tree)
 
 ## Learning Objectives
@@ -47,12 +48,14 @@ The output will display discovered open ports and potentially software versions 
 1. Login to the Wazuh manager and navigate to "Security Events".
 2. Select the target machine (Wazuh agent) from the list.
 3. You should see Suricata alerts generated for the detected network scanning attempts.
+
 ### Filtering Alerts:
- - Use the filter rule.group: suricata to focus on Suricata-related alerts.
+- Use the filter rule.group: suricata to focus on Suricata-related alerts.
+
 ### Alert Details:
 Expand an alert for details such as:
- - Rule signature (e.g., ET SCAN Potential SSH Scan OUTBOUND)
- - Source and destination IP addresses
+- Rule signature (e.g., ET SCAN Potential SSH Scan OUTBOUND)
+- Source and destination IP addresses
  - Action taken by Wazuh
  - Severity level of the event
 
