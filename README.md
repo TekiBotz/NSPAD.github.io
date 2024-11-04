@@ -43,6 +43,7 @@
 ## Output
 ***
 The output will display discovered open ports and potentially software versions running on the target machine.
+![NmapScan](https://github.com/user-attachments/assets/ec54b462-7ad4-4eab-a294-7ab279db1360)
 
 ### Wazuh Alert Visualization
 1. Login to the Wazuh manager and navigate to "Security Events".
@@ -51,6 +52,7 @@ The output will display discovered open ports and potentially software versions 
 
 ### Filtering Alerts:
 - Use the filter rule.group: suricata to focus on Suricata-related alerts.
+![WazuhNmapEvents](https://github.com/user-attachments/assets/8a68c22c-1ada-44e3-ad1b-569be84e2243)
 
 ### Alert Details:
 Expand an alert for details such as:
