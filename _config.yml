@@ -1,5 +1,5 @@
 # Site settings
-title: Network Scanning Probe Attack and Detection
+title: Network Scanning Probe Attack and Detection (by Jarrale Butts)
 description: This lab explores network scanning probes, a common tactic used in hacking attempts, and demonstrates how Wazuh can detect them using Suricata IDS (Intrusion Detection System).
 url: "https://NSPDA.github.io"
 
