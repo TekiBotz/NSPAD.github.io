@@ -1,6 +1,6 @@
 # Site settings
-title: Jarrale Butts
-description: 
+title: Jarrale Butts: Network Scanning Probe Attack and Detection (Lab)
+description: This project explores network scanning probes, a common tactic used in hacking attempts, and demonstrates how Wazuh can detect them using Suricata IDS (Intrusion Detection System).
 url: "https://NSPDA.github.io"
 
 # Markdown options
