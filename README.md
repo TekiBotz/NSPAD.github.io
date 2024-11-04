@@ -7,17 +7,18 @@
 - [Link Tree](#link-tree)
 
 ## Learning Objectives
+***
  - Understand Nmap, a popular network scanner, and its capabilities.
  - Simulate network scanning attacks with Nmap.
  - Verify the effectiveness of Suricata IDS rules in detecting scans.
  - Visualize Suricata alerts on the Wazuh dashboard for analysis.
-***
+
 ## Lab Setup
+***
 ### Components:
  - Attacker machine (Ubuntu Desktop Hosted on VMWare)
  - Target machine (Ubuntu Server Hosted on VMWare) with Wazuh agent and Suricata installed
  - Wazuh server (Ubuntu Server Hosted on Google Cloud Platform)
-***
 
 ## Logical Network Diagram
 ***
@@ -39,25 +40,29 @@
     - This command combines a SYN scan with a version scan.
 
 ## Output
+***
 The output will display discovered open ports and potentially software versions running on the target machine.
-Wazuh Alert Visualization
+
+### Wazuh Alert Visualization
 1. Login to the Wazuh manager and navigate to "Security Events".
 2. Select the target machine (Wazuh agent) from the list.
 3. You should see Suricata alerts generated for the detected network scanning attempts.
-Filtering Alerts:
-* Use the filter rule.group: suricata to focus on Suricata-related alerts.
-Alert Details:
+### Filtering Alerts:
+ - Use the filter rule.group: suricata to focus on Suricata-related alerts.
+### Alert Details:
 Expand an alert for details such as:
-* Rule signature (e.g., ET SCAN Potential SSH Scan OUTBOUND)
-* Source and destination IP addresses
-* Action taken by Wazuh
-* Severity level of the event
-Conclusion
+ - Rule signature (e.g., ET SCAN Potential SSH Scan OUTBOUND)
+ - Source and destination IP addresses
+ - Action taken by Wazuh
+ - Severity level of the event
+
+## Conclusion
+***
 This project demonstrates how Suricata effectively detects network scanning probes using the ET ruleset. Wazuh visualizes these alerts, allowing security personnel to identify potential threats and investigate further.
-Additional Notes:
-* Network scanning is a legitimate tool for network administrators, but malicious actors also utilize it for reconnaissance.
-* Suricata provides a robust way to detect suspicious scanning activity on your network.
-* Wazuh enhances security posture by offering centralized management and visualization of security events.
+### Additional Notes:
+ - Network scanning is a legitimate tool for network administrators, but malicious actors also utilize it for reconnaissance.
+ - Suricata provides a robust way to detect suspicious scanning activity on your network.
+ - Wazuh enhances security posture by offering centralized management and visualization of security events.
 
 ## Link Tree
 ***
