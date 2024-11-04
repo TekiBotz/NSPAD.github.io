@@ -1,7 +1,7 @@
 - [Learning Objectives](#learning-objectivies)
 - [Lab Setup](#lab-setup)
 - [Logical Network Diagram](#logical-network-diagram)
-- 
+- [Software](#software)
 
 ## Learning Objectives
 ***
@@ -15,11 +15,13 @@
 ### Components:
  - Attacker machine (Ubuntu Desktop Hosted on VMWare)
  - Target machine (Ubuntu Server Hosted on VMWare) with Wazuh agent and Suricata installed
- - Wazuh server (Hosted on Google Cloud Platform)
+ - Wazuh server (Ubuntu Server Hosted on Google Cloud Platform)
 
 ## Logical Network Diagram
 ***
-Software:
+![Network Scanning Probe Attack and Detection drawio](https://github.com/user-attachments/assets/0b9e0f98-f644-4e20-974a-61a33993e876)
+
+## Software:
 * Nmap
 * Wazuh
 * Suricata
