@@ -43,6 +43,7 @@
 ## Output
 ***
 The output will display discovered open ports and potentially software versions running on the target machine.
+
 ![NmapScan](https://github.com/user-attachments/assets/ec54b462-7ad4-4eab-a294-7ab279db1360)
 
 ### Wazuh Alert Visualization
