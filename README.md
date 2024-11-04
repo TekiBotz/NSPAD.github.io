@@ -52,3 +52,6 @@ Additional Notes:
 * Network scanning is a legitimate tool for network administrators, but malicious actors also utilize it for reconnaissance.
 * Suricata provides a robust way to detect suspicious scanning activity on your network.
 * Wazuh enhances security posture by offering centralized management and visualization of security events.
+
+This page was customized by Jarrale Butts to enhance your experience.
+[Top](#top)
