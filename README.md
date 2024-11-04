@@ -34,11 +34,11 @@
 ## Attack Simulation
 ***
 1. Scanning for Open Ports (SYN Scan):
-    - Open a terminal on the attacker machine and run: nmap -sS -Pn 10.0.2.5  // Replace with target IP
-    - This command performs a SYN scan (half-open) to identify open ports on the target machine.
+- Open a terminal on the attacker machine and run: nmap -sS -Pn 10.0.2.5  // Replace with target IP
+- This command performs a SYN scan (half-open) to identify open ports on the target machine.
 2. Scanning for Software Versions (Version Scan):
-    - Run the following command to identify software versions: nmap -sS -sV -Pn 10.0.2.5 // Replace with target IP
-    - This command combines a SYN scan with a version scan.
+  - Run the following command to identify software versions: nmap -sS -sV -Pn 10.0.2.5 // Replace with target IP
+  - This command combines a SYN scan with a version scan.
 
 ## Output
 ***
@@ -56,8 +56,8 @@ The output will display discovered open ports and potentially software versions 
 Expand an alert for details such as:
 - Rule signature (e.g., ET SCAN Potential SSH Scan OUTBOUND)
 - Source and destination IP addresses
- - Action taken by Wazuh
- - Severity level of the event
+- Action taken by Wazuh
+- Severity level of the event
 
 ## Conclusion
 ***
